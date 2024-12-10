@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 100px;
+    padding: 30px;
+    width: 600px;
+    font-style: italic;
+    font-size: 45px;
+}
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    width: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.asd{
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+h2{
+    background-color: grey;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.gap{
+    padding: 10px;
+}
+
+.foto{
+    width: 320px;
+}
+
+footer{
+    display: flex;
+    background-color:  grey;
+    justify-content: center;
+    align-items: center;
+    width: 110vw;
+}
